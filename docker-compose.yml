@@ -1,0 +1,32 @@
+version: '3.7'
+
+services:
+  frontend:
+      build: ./frontend
+      container_name: dash_app
+      restart: always
+      expose:
+        - 8050
+      depends_on:
+        - nginx
+
+  flask:
+    build: ./flask
+    container_name: flask
+    restart: always
+    environment:
+      - APP_NAME=flask
+    expose:
+      - 8080
+    depends_on:
+      - frontend
+      - nginx
+
+  nginx:
+    build: ./nginx
+    container_name: nginx
+    restart: always
+    ports:
+      - "80:80"
+  
+  
