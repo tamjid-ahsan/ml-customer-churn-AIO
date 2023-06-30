@@ -319,8 +319,8 @@ def update_output(Gender, Dependent_count, Education_Level, Marital_Status,
         print(sum(new_data.iloc[0].isnull()))
         print(new_data.iloc[0])
     if sum(new_data.iloc[0].isnull())==0:
-        # URL = "http://localhost:8080/predict"
-        URL:str = "http://flask:8080/predict"
+        # URL = "http://flask:8080/predict"
+        URL:str = "http://nginx:80/predict"
         headers = {'Content-Type':'application/json'}
         data = new_data.iloc[0].to_json()
         if debug:
