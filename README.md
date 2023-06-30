@@ -60,6 +60,8 @@ https://www.bogotobogo.com/DevOps/Docker/Docker-Compose-Nginx-Reverse-Proxy-Mult
 https://stackoverflow.com/questions/61094884/how-to-run-2-flask-apps-and-nginx-using-a-single-docker-compose
 https://devpress.csdn.net/cloudnative/62f220b7c6770329307f6048.html
 
+- https://alex-jacobs.com/posts/jupyterlab1/
+
 
 
 ___
@@ -71,7 +73,7 @@ ___
 - <s>***fix app to app api calls inside docker container***</s>
 - change default favicon for apps
 - create a new image from multiple dockerfile and docker-compose to a single image {check if is it is possible?}
-- deep dive into docker and docker-compose
+- deep dive into docker and docker-compose | docker swarm
 - secure connection: SSL, port 443 in nginx and certificate
 - add architecture diagram
 - adding custom package to the run.py or wherever needed. package importing deep dive | folder traversing | __init__ explore
