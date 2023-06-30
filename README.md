@@ -59,6 +59,7 @@ https://devpress.csdn.net/cloudnative/62f220b7c6770329307f6048.html
 https://www.bogotobogo.com/DevOps/Docker/Docker-Compose-Nginx-Reverse-Proxy-Multiple-Containers.php
 https://stackoverflow.com/questions/61094884/how-to-run-2-flask-apps-and-nginx-using-a-single-docker-compose
 https://devpress.csdn.net/cloudnative/62f220b7c6770329307f6048.html
+https://github.com/ml-tooling/ml-workspace
 
 
 
@@ -75,7 +76,7 @@ ___
 - secure connection: SSL, port 443 in nginx and certificate
 - add architecture diagram
 - adding custom package to the run.py or wherever needed. package importing deep dive | folder traversing | __init__ explore
-- run jupyter server in app 
+- run jupyter server in app [l](https://github.com/jupyter/docker-stacks)
 
 # instructions
 
