@@ -1,5 +1,7 @@
 # docker-nginx-uwsgi-flask README
+
 WIP
+
 ML application deployment using `Docker` <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Docker_logo.svg/120px-Docker_logo.svg.png" alt="Docker" height="5%" width="5%">. `Flask` [<img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/120px-Flask_logo.svg.png" alt="Flasklogo" height="5%" width="5%" title="Flask">](https://github.com/pallets/flask) as API server, `NGINX` [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/120px-Nginx_logo.svg.png" alt="NGINX" height="5%" width="5%">](https://hg.nginx.org/nginx) and `uWSGI` [<img src="https://www.fullstackpython.com/img/logos/uwsgi.png" alt="uWSGI" height="5%" width="5%">](https://github.com/unbit/uwsgi) for request management.
 ML details is [available at](https://github.com/tamjid-ahsan/capstone_customer_churn).
 
@@ -44,22 +46,22 @@ sudo killall apache2 # kill a process if it using a port
 - https://uwsgi-docs.readthedocs.io/en/latest/Nginx.html
 - https://gabimelo.medium.com/developing-a-flask-api-in-a-docker-container-with-uwsgi-and-nginx-e089e43ed90e
 - https://www.youtube.com/watch?v=wLrmmh1eI94
-https://www.youtube.com/watch?v=7VAI73roXaY
-https://www.youtube.com/watch?v=cjJVmAI1Do4
-https://www.youtube.com/watch?v=ZmH1L1QeNHk
-https://www.youtube.com/watch?v=iaQBEwc9HRg
-https://www.youtube.com/watch?v=mZbLvGQqEvY
-https://www.youtube.com/watch?v=2ImyICAC8nA
-https://www.youtube.com/results?search_query=nginx+uwsgi+docker-compose
-https://www.youtube.com/watch?v=dVEjSmKFUVI
-https://www.youtube.com/watch?v=NIHzYIkXFhE
-https://www.youtube.com/watch?v=42Q65H8ch7U
-https://www.youtube.com/watch?v=ugRoOFYJyJ8
-https://devpress.csdn.net/cloudnative/62f220b7c6770329307f6048.html
-https://www.bogotobogo.com/DevOps/Docker/Docker-Compose-Nginx-Reverse-Proxy-Multiple-Containers.php
-https://stackoverflow.com/questions/61094884/how-to-run-2-flask-apps-and-nginx-using-a-single-docker-compose
-https://devpress.csdn.net/cloudnative/62f220b7c6770329307f6048.html
-https://github.com/ml-tooling/ml-workspace
+- https://www.youtube.com/watch?v=7VAI73roXaY
+- https://www.youtube.com/watch?v=cjJVmAI1Do4
+- https://www.youtube.com/watch?v=ZmH1L1QeNHk
+- https://www.youtube.com/watch?v=iaQBEwc9HRg
+- https://www.youtube.com/watch?v=mZbLvGQqEvY
+- https://www.youtube.com/watch?v=2ImyICAC8nA
+- https://www.youtube.com/results?search_query=nginx+uwsgi+docker-compose
+- https://www.youtube.com/watch?v=dVEjSmKFUVI
+- https://www.youtube.com/watch?v=NIHzYIkXFhE
+- https://www.youtube.com/watch?v=42Q65H8ch7U
+- https://www.youtube.com/watch?v=ugRoOFYJyJ8
+- https://devpress.csdn.net/cloudnative/62f220b7c6770329307f6048.html
+- https://www.bogotobogo.com/DevOps/Docker/Docker-Compose-Nginx-Reverse-Proxy-Multiple-Containers.php
+- https://stackoverflow.com/questions/61094884/how-to-run-2-flask-apps-and-nginx-using-a-single-docker-compose
+- https://devpress.csdn.net/cloudnative/62f220b7c6770329307f6048.html
+- https://github.com/ml-tooling/ml-workspace
 
 
 
@@ -76,7 +78,7 @@ ___
 - secure connection: SSL, port 443 in nginx and certificate
 - add architecture diagram
 - adding custom package to the run.py or wherever needed. package importing deep dive | folder traversing | __init__ explore
-- run jupyter server in app [l](https://github.com/jupyter/docker-stacks)
+- run jupyter server in app [link](https://github.com/jupyter/docker-stacks)
 
 # instructions
 
