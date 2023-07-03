@@ -22,14 +22,14 @@ services:
       - frontend
       - nginx
     
-  jupyter:
-    build: ./jupyter
-    container_name: jupyter
-    restart: always
-    environment:
-      - APP_NAME=jupyter
-    expose:
-      - 8080
+  # jupyter:
+  #   build: ./jupyter
+  #   container_name: jupyter
+  #   restart: always
+  #   environment:
+  #     - APP_NAME=jupyter
+  #   expose:
+  #     - 8080
 
   nginx:
     build: ./nginx
@@ -37,7 +37,7 @@ services:
     restart: always
     ports:
       - "80:80"
-    links:
-      - "jupyter"
+    # links:
+    #   - "jupyter"
   
   
